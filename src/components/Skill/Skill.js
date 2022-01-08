@@ -3,6 +3,7 @@ import './skill.css'
 const Skill = () => {
     return (
         <div className='container my-5'>
+            <h1 className='text-center mb-5 text-uppercase'>Skill</h1>
             <div className='row'>
                 <div className='col-md-6'>
                     <div className='skill-item mb-4'>
