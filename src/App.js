@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Navigation from './components/Navigation/Navigation';
@@ -16,7 +17,8 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home/>} />
           <Route path="/home" element={<Header />} />
           <Route path="/about" element={<Test />} />
           <Route path="/skill" element={<Skill />} />
@@ -24,6 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
