@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
@@ -14,7 +14,7 @@ import Test from './components/Test/Test';
 function App() {
   return (
     <div>
-      <Router>
+      <BrowserRouter>
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,7 +27,7 @@ function App() {
           <Route path="/blog" element={<Blog/>}/>
         </Routes>
         <Footer/>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

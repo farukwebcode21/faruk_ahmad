@@ -4,7 +4,7 @@ import './navigation.css'
 const Navigation = () => {
     return (
         <div className="container">
-            <nav className="navbar navbar-expand-sm rounded" aria-label="Twelfth navbar example">
+            <nav className="navbar navbar-expand-sm rounded" aria-label="navbar">
                 <div className="container-fluid">
                     <a className="navbar-brand fs-1" href="#/">F</a>
                     <button className=" btn btn-danger navbar-toggler danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
