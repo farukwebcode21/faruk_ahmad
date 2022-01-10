@@ -17,7 +17,7 @@ const Test = () => {
                 </div>
                 <Zoom right cascade>
                     <div className='col-sm-12 col-md-6 mx-2'>
-                    <p>Hello! I'm Faruk Ahmed, a passionate Web Developer. I develop web applications, My core skill is based on JavaScript and I love to do most of the things using Javascript library React. I love to make the web more open to the world. I have graduated with a bachelor's degree in  I am available for any kind of job opportunity that suits my interests.</p>
+                    <p>Hello! I'm Faruk Ahmed, a passionate Web Developer. I develop web applications, My core skill is based on JavaScript and I love to do most of the things using Javascript library React. I love to make the web more open to the world. I am available for any kind of job opportunity that suits my interests.</p>
                     <a className="btn btn-success px-5 p-3 fs-5" target="_blank" href={resume} rel="noopener noreferrer" download>Get Resume</a>
                     <NavLink className="btn px-5 p-3 fs-5 mx-3 text-white border border-success" to="/skill">Skill</NavLink>
                 </div>
