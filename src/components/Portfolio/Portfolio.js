@@ -80,10 +80,9 @@ const Portfolio = () => {
                 <div className="card-footer">
                 <small className="text-white">
                     <span className='mx-1'>React</span>
-                    <span className='mx-1'>Firebase</span>
-                    <span className='mx-1'>MongoDb</span>
-                    <span className='mx-1'>Node.js</span>
-                    <span className='mx-2'>Express</span>
+                    <span className='mx-1'>Javascript</span>
+                    <span className='mx-1'>Html</span>
+                    <span className='mx-1'>css</span>
                 </small>
                 </div>
                 </div>
@@ -97,11 +96,9 @@ const Portfolio = () => {
                         </div>
                         <div className="card-footer">
                         <small className="text-white">
-                                <span className='mx-1'>React</span>
-                                <span className='mx-1'>Firebase</span>
-                                <span className='mx-1'>MongoDb</span>
-                                <span className='mx-1'>Node.js</span>
-                                <span className='mx-2'>Express</span>
+                                <span className='mx-1'>Html</span>
+                                <span className='mx-1'>Bootstrap</span>
+                                <span className='mx-1'>css</span>
                         </small>
                         </div>
                    </Zoom>
@@ -117,9 +114,6 @@ const Portfolio = () => {
                             <small className="text-white">
                                 <span className='mx-1'>React</span>
                                 <span className='mx-1'>Firebase</span>
-                                <span className='mx-1'>MongoDb</span>
-                                <span className='mx-1'>Node.js</span>
-                                <span className='mx-2'>Express</span>
                             </small>
                         </div>
                         </Zoom>
