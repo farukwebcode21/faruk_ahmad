@@ -13,7 +13,7 @@ const Portfolio = () => {
     return (
             <div className='container'>
             <Zoom top cascade><h2 className='text-center text-uppercase m-5'>PortFolio</h2></Zoom>
-            <div className="card-group">
+            <div className="card-group mb-5">
             <Zoom bottom cascade>
                 <div className="card mx-2 rounded">
                     <img src={firstImage} className="card-img-top rounded" height="100%" alt="project_1" />
@@ -31,41 +31,45 @@ const Portfolio = () => {
                         </small>
                     </div>
                 </div>
-            </Zoom>
-                <div className="card mx-2 rounded">
-                    <img src={secondImage} className="card-img-top rounded" height="100%" alt="project_2" />
-                    <div className='card-body d-flex'>
-                        <h5><a className='px-2 text-white' href="https://nish-website-9cda1.web.app/">Live</a></h5>
-                        <h5><a className='p-2 text-white' href="https://github.com/farukwebcode21/Rolex-Brand-shop">Git</a></h5>
+                </Zoom>
+                <Zoom bottom cascade>
+                    <div className="card mx-2 rounded">
+                        <img src={secondImage} className="card-img-top rounded" height="100%" alt="project_2" />
+                        <div className='card-body d-flex'>
+                            <h5><a className='px-2 text-white' href="https://nish-website-9cda1.web.app/">Live</a></h5>
+                            <h5><a className='p-2 text-white' href="https://github.com/farukwebcode21/Rolex-Brand-shop">Git</a></h5>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-white">
+                                <span className='mx-1'>React</span>
+                                <span className='mx-1'>Firebase</span>
+                                <span className='mx-1'>MongoDb</span>
+                                <span className='mx-1'>Node.js</span>
+                                <span className='mx-2'>Express</span>
+                            </small>
+                        </div>
                     </div>
-                    <div className="card-footer">
-                        <small className="text-white">
-                            <span className='mx-1'>React</span>
-                            <span className='mx-1'>Firebase</span>
-                            <span className='mx-1'>MongoDb</span>
-                            <span className='mx-1'>Node.js</span>
-                            <span className='mx-2'>Express</span>
-                        </small>
-                    </div>
-                </div>
-                <div className="card mx-2 rounded">
+                </Zoom>
+                <Zoom bottom cascade>
+                    <div className="card mx-2 rounded">
                     <img src={thiredImage} className="card-img-top rounded" height="100%" alt="project_3" />
                     <div className='card-body d-flex'>
                         <h5><a className='px-2 text-white' href="https://react-firebase-authenatication.web.app/">Live</a></h5>
                         <h5><a className='p-2 text-white' href="https://github.com/farukwebcode21/clothing-ecommerce-shop">Git</a></h5>
                     </div>
                     <div className="card-footer">
-                        <small className="text-white">
-                            <span className='mx-1'>React</span>
-                            <span className='mx-1'>Firebase</span>
-                            <span className='mx-1'>MongoDb</span>
-                            <span className='mx-1'>Node.js</span>
-                            <span className='mx-2'>Express</span>
-                        </small>
+                    <small className="text-white">
+                        <span className='mx-1'>React</span>
+                        <span className='mx-1'>Firebase</span>
+                        <span className='mx-1'>MongoDb</span>
+                        <span className='mx-1'>Node.js</span>
+                        <span className='mx-2'>Express</span>
+                    </small>
                     </div>
                 </div>
+                </Zoom>
             </div>
-            <div className="card-group">
+            <div className="card-group mb-5">
             <Zoom bottom cascade>
                 <div className="card mx-2 rounded">
                 <img src={sixImage} className="card-img-top rounded" height="100%" alt="project_4" />
@@ -74,47 +78,51 @@ const Portfolio = () => {
                     <h5><a className='p-2 text-white' href="https://github.com/farukwebcode21/super-hero-bahabuli">Git</a></h5>
                 </div>
                 <div className="card-footer">
-                    <small className="text-white">
-                        <span className='mx-1'>React</span>
-                        <span className='mx-1'>Firebase</span>
-                        <span className='mx-1'>MongoDb</span>
-                        <span className='mx-1'>Node.js</span>
-                        <span className='mx-2'>Express</span>
-                    </small>
+                <small className="text-white">
+                    <span className='mx-1'>React</span>
+                    <span className='mx-1'>Firebase</span>
+                    <span className='mx-1'>MongoDb</span>
+                    <span className='mx-1'>Node.js</span>
+                    <span className='mx-2'>Express</span>
+                </small>
                 </div>
                 </div>
             </Zoom>
                 <div className="card mx-2 rounded">
-                    <img src={fourImage} className="card-img-top rounded" height="100%" alt="project_5" />
-                    <div className='card-body d-flex'>
-                        <h5><a className='px-2 text-white' href="https://cbr300.netlify.app/">Live</a></h5>
-                        <h5><a className='p-2 text-white' href="https://github.com/farukwebcode21/honda-shop">Git</a></h5>
-                    </div>
-                    <div className="card-footer">
+                    <Zoom bottom cascade>
+                         <img src={fourImage} className="card-img-top rounded" height="100%" alt="project_5" />
+                        <div className='card-body d-flex'>
+                            <h5><a className='px-2 text-white' href="https://cbr300.netlify.app/">Live</a></h5>
+                            <h5><a className='p-2 text-white' href="https://github.com/farukwebcode21/honda-shop">Git</a></h5>
+                        </div>
+                        <div className="card-footer">
                         <small className="text-white">
-                            <span className='mx-1'>React</span>
-                            <span className='mx-1'>Firebase</span>
-                            <span className='mx-1'>MongoDb</span>
-                            <span className='mx-1'>Node.js</span>
-                            <span className='mx-2'>Express</span>
+                                <span className='mx-1'>React</span>
+                                <span className='mx-1'>Firebase</span>
+                                <span className='mx-1'>MongoDb</span>
+                                <span className='mx-1'>Node.js</span>
+                                <span className='mx-2'>Express</span>
                         </small>
-                    </div>
+                        </div>
+                   </Zoom>
                 </div>
                 <div className="card mx-2 rounded">
-                    <img src={fiveImage} className="card-img-top rounded" height="100%" alt="project_6" />
-                    <div className='card-body d-flex'>
-                        <h5><a className='px-2 text-white' href="https://health-care-5b2d5.web.app/">Live</a></h5>
-                        <h5><a className='p-2 text-white' href="https://github.com/farukwebcode21/health-service">Git</a></h5>
-                    </div>
-                    <div className="card-footer">
-                        <small className="text-white">
-                            <span className='mx-1'>React</span>
-                            <span className='mx-1'>Firebase</span>
-                            <span className='mx-1'>MongoDb</span>
-                            <span className='mx-1'>Node.js</span>
-                            <span className='mx-2'>Express</span>
-                        </small>
-                    </div>
+                    <Zoom bottom cascade>
+                        <img src={fiveImage} className="card-img-top rounded" height="100%" alt="project_6" />
+                        <div className='card-body d-flex'>
+                            <h5><a className='px-2 text-white' href="https://health-care-5b2d5.web.app/">Live</a></h5>
+                            <h5><a className='p-2 text-white' href="https://github.com/farukwebcode21/health-service">Git</a></h5>
+                        </div>
+                        <div className="card-footer">
+                            <small className="text-white">
+                                <span className='mx-1'>React</span>
+                                <span className='mx-1'>Firebase</span>
+                                <span className='mx-1'>MongoDb</span>
+                                <span className='mx-1'>Node.js</span>
+                                <span className='mx-2'>Express</span>
+                            </small>
+                        </div>
+                        </Zoom>
                 </div>
             </div>
         </div>

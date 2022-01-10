@@ -3,3 +3,10 @@
   color: white;
 }
 
+.navbar-toggler {
+  background: #00cf5d;
+  color: #111a28;
+}
+.navbar-toggler-icon {
+  background-image: url("../../img/navbar.png");
+}

@@ -1,16 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './navigation.css'
+
 const Navigation = () => {
     return (
         <div className="container">
             <nav className="navbar navbar-expand-sm rounded" aria-label="navbar">
                 <div className="container-fluid">
                     <a className="navbar-brand fs-1" href="#/">F</a>
-                    <button className=" btn btn-danger navbar-toggler danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className=" btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
-
                     <div className="collapse navbar-collapse" id="navbarsExample10">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">

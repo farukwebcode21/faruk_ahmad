@@ -7,14 +7,13 @@ const Skill = () => {
             <Zoom top cascade><h1 className='text-center mb-5 text-uppercase'>Skill</h1></Zoom>
             <div className='row'>
                 <div className='col-md-6'>
-                    <Zoom bottom cascade>
+                    <Zoom right cascade>
                         <div className='skill-item mb-4'>
                         <h3 className='fs-6'>HTML</h3>
                         <div className='progress' style={{ height:'10px'}}>
                             <div className="progress-bar bg-success" role="progressbar" style={{width: '95%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
-                    </Zoom>
                     <div className='skill-item mb-4'>
                         <h3 className='fs-6'>CSS</h3>
                         <div className='progress' style={{ height:'10px'}}>
@@ -39,9 +38,11 @@ const Skill = () => {
                             <div className="progress-bar bg-success" role="progressbar" style={{width: '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    </Zoom>
                 </div>
                 <div className='col-md-6'>
-                    <div className='skill-item mb-4'>
+                    <Zoom left cascade>
+                        <div className='skill-item mb-4'>
                         <h3 className='fs-6'>REACT</h3>
                         <div className='progress' style={{ height:'10px'}}>
                             <div className="progress-bar bg-success" role="progressbar" style={{width: '85%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
@@ -71,6 +72,7 @@ const Skill = () => {
                             <div className="progress-bar bg-success" role="progressbar" style={{width: '65%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
+                    </Zoom>
                 </div>
             </div>
         </div>
